@@ -7,34 +7,27 @@ Python 3
 Streamlit (if used) or Console-based
 Health formula logic
 
+
  How It Works
 User inputs height (cm or inches) and weight (kg or pounds)
 
-It uses the BMI formula:
-BMI= weight (kg)
-    (height (m))2
-BMI= 
-(height (m)) 2
- 
-weight (kg)
-​
- 
 
-It classifies the result using WHO guidelines:
+It uses the BMI formula:
+   BMI  = weight (kg)/ (height (m))2
+
+
+
+  It classifies the result using WHO guidelines:
 
 Underweight: BMI < 18.5
-
 Normal: 18.5–24.9
-
 Overweight: 25–29.9
-
 Obese: 30+
+
 
  Features
 Simple, interactive input system
-
 Instant BMI calculation
-
 Dynamic health feedback message
 
 Can be extended with health tips or visuals
